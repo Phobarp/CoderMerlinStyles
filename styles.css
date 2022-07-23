@@ -1,23 +1,7 @@
-details {
-  user-select: none;
-}
-
-details>summary span.icon {
-  width: 24px;
-  height: 24px;
-  transition: all 0.3s;
-  margin-left: auto;
-}
-
-details[open] summary span.icon {
-  transform: rotate(180deg);
-}
-
-summary {
-  display: flex;
-  cursor: pointer;
-}
-
-summary::-webkit-details-marker {
-  display: none;
+.merlin-code-explorer-banner-language-icon-button {
+    width:30px;
+    height:30px;
+    margin:5px;
+    float:right;
+    cursor: pointer;
 }
